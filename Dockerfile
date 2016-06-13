@@ -2,7 +2,7 @@ FROM node:4.2.3
 MAINTAINER Dan Lynn <docker@danlynn.org>
 
 EXPOSE 4200 35729
-WORKDIR /myapp
+WORKDIR /cern-webrtc-client
 
 # run ember server on container start
 ENTRYPOINT ["/usr/local/bin/ember"]
